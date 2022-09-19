@@ -6,11 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Welcome to Vecta Corporation</title>
     <link href="styles\PageStyle.css" rel="stylesheet">
+    <style>
+        p::first-line{
+            font-weight: bold;
+        }
+
+        p:first-of-type::first-line{
+            font-weight: normal !important;
+        }
+        
+    </style>
 </head>
 
 <body>
 <!-- <img src="images/header.gif" alt=""> -->
-<p><img src="images/header.gif" alt="Vecta Corp website header"></p>
+<img src="images/header.gif" alt="Vecta Corp website header">
 <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="aboutus.html">About Us</a></li>
